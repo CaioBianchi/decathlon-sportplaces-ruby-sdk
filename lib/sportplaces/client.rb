@@ -1,6 +1,6 @@
 module SportPlaces
   class Place
-    require_relative 'clients/discovery'
+    require_relative 'places/discovery'
     include SportPlaces::Place::Discovery
 
     attr_accessor :token
