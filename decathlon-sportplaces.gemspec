@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = 'decathlon-sportplaces'
   spec.authors       = ['Caio Bianchi']
-  spec.email         = 'caio.bianchi@ticketmaster.com'
+  spec.email         = 'caio.bianchi@decathlon.com'
   spec.version       = '0.0.1'
   spec.date          = '2018-05-29'
   spec.summary       = 'Sport Places API Ruby SDK'
